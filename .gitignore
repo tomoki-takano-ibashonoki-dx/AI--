@@ -1,0 +1,10 @@
+﻿# --- PDF教科書データをGitから除外（絶対にアップロードしない） ---
+*.pdf
+
+# --- Pythonキャッシュ ---
+__pycache__/
+*.pyc
+
+# --- OS生成ファイル ---
+.DS_Store
+Thumbs.db
