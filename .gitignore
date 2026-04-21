@@ -1,10 +1,21 @@
-﻿# --- PDF教科書データをGitから除外（絶対にアップロードしない） ---
+# --- PDF教科書データをGitから除外 ---
 *.pdf
 
-# --- Pythonキャッシュ ---
+# --- 生成されたスライド画像（大容量データ） ---
+Outputs/
+
+# --- パイソン関連のファイル ---
 __pycache__/
 *.pyc
+.venv/
+.env
+
+# --- 一時的な作業ファイル ---
+temp_extracted.txt
+temp_slide.html
+*.tmp
 
 # --- OS生成ファイル ---
 .DS_Store
 Thumbs.db
+desktop.ini
